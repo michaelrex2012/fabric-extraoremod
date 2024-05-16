@@ -1,32 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorialmod",
+	"id": "eom",
 	"version": "${version}",
-	"name": "Tutorial Mod",
-	"description": "This is a Tutorial Mod made by Kaupenjoe :)",
+	"name": "Extra Ore Mod",
+	"description": "This is a Tutorial Mod made by Michael",
 	"authors": [
-		"Kaupenjoe!"
+		"Michael"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
+	"icon": "assets/eom/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.kaupenjoe.tutorialmod.TutorialMod"
+			"net.michael.eom.TutorialMod"
 		],
 		"client": [
-			"net.kaupenjoe.tutorialmod.TutorialModClient"
+			"net.michael.eom.TutorialModClient"
 		],
 		"fabric-datagen": [
-			"net.kaupenjoe.tutorialmod.TutorialModDataGenerator"
+			"net.michael.eom.TutorialModDataGenerator"
 		]
 	},
 	"mixins": [
-		"tutorialmod.mixins.json"
+		"TutorialMod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "eom:block/raw_ruby_block"
+    }
+  }
+}
