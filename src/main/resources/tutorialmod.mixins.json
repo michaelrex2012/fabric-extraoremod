@@ -3,7 +3,7 @@
 	"package": "net.michael.eom.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"TutorialModMixin"
+		
 	],
 	"injectors": {
 		"defaultRequire": 1
