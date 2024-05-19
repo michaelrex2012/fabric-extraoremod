@@ -1,6 +1,11 @@
 {
   "item.eom.ruby": "Ruby",
   "item.eom.raw_ruby": "Raw Ruby",
+  "item.eom.rubber_scrap": "Rubber Scrap",
+  "item.eom.reel": "Reel",
+  "item.eom.rubber_reel": "Reel of Rubber",
+  "item.eom.copper_wire": "Copper Wire",
+
   "item.eom.metal_detector": "Metal Detector",
 
   "block.eom.ruby_block": "Block of Ruby",
@@ -11,5 +16,5 @@
   "block.eom.nether_ruby_ore": "Nether Ruby Ore",
   "block.eom.end_stone_ruby_ore": "End Stone Ruby Ore",
 
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "itemgroup.ruby": "Extra Ore Mod"
 }

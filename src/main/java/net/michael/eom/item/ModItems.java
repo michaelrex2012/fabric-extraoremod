@@ -13,6 +13,10 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
+    public static final Item RUBBER_SCRAP = registerItem("rubber_scrap", new Item(new Item.Settings()));
+    public static final Item REEL = registerItem("reel", new Item(new Item.Settings()));
+    public static final Item RUBBER_REEL = registerItem("rubber_reel", new Item(new Item.Settings()));
+    public static final Item COPPER_WIRE = registerItem("copper_wire", new Item(new Item.Settings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new Item.Settings().maxDamage(32)));

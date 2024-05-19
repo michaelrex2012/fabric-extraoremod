@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:logs"
+    },
+    {
+      "tag": "eom:axes"
+    }
+  ],
+  "result": {
+    "item": "eom:rubber_scrap",
+    "count": 1
+  }
+}

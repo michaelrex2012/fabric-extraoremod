@@ -18,6 +18,10 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.RUBBER_SCRAP);
+                        entries.add(ModItems.REEL);
+                        entries.add(ModItems.RUBBER_REEL);
+                        entries.add(ModItems.COPPER_WIRE);
 
                         entries.add(ModItems.METAL_DETECTOR);
 

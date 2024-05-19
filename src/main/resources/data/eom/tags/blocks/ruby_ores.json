@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eom:ruby_ore",
+    "eom:deepslate_ruby_ore",
+    "eom:nether_ruby_ore",
+    "eom:end_stone_ruby_ore"
+  ]
+}

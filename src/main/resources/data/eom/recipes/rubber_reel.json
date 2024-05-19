@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SRS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "eom:rubber_scrap"
+    },
+    "R": {
+      "item": "eom:reel"
+    }
+  },
+  "result": {
+    "item": "eom:rubber_reel"
+  }
+}
