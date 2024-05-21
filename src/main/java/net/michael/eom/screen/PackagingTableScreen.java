@@ -31,5 +31,14 @@ public class PackagingTableScreen extends HandledScreen<PackagingTableScreenHand
         int x = (width - backgroundWidth) / 2;
         int y = (height - backgroundHeight) / 2;
 
+        context.drawTexture(TEXTURE, x, y, 0, 0, backgroundWidth, backgroundHeight);
+
+        renderProgressArrow(context, x, y);
+    }
+
+    private void renderProgressArrow(DrawContext context, int x, int y) {
+        if(handler.isCrafting()) {
+            context.drawTexture(TEXTURE, x + 85, y + 30, 178, 1, handler.getScaledProgress);
+        }
     }
 }
