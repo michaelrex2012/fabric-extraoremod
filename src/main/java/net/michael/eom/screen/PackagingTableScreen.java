@@ -10,7 +10,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class PackagingTableScreen extends HandledScreen<PackagingTableScreenHandler> {
-    private static final Identifier TEXTURE = new Identifier(TutorialMod.MOD_ID, "texture/gui/packaging_table_gui.png")
+    private static final Identifier TEXTURE = new Identifier(TutorialMod.MOD_ID, "texture/gui/packaging_table_gui.png");
 
     public PackagingTableScreen(PackagingTableScreenHandler handler, PlayerInventory inventory, Text title) {
         super(handler, inventory, title);
@@ -38,7 +38,14 @@ public class PackagingTableScreen extends HandledScreen<PackagingTableScreenHand
 
     private void renderProgressArrow(DrawContext context, int x, int y) {
         if(handler.isCrafting()) {
-            context.drawTexture(TEXTURE, x + 85, y + 30, 178, 1, handler.getScaledProgress);
+            //context.drawTexture(TEXTURE, x + 85, y + 30, 178, 1, handler.getScaledProgress());
         }
+    }
+
+    @Override
+    public void render(DrawContext context, int mouseX, int mouseY, float delta) {
+        renderBackground(context, mouseX, mouseY, delta);
+        super.render(context, mouseX, mouseY, delta);
+        drawMouseoverTooltip(context, mouseX, mouseY);
     }
 }
