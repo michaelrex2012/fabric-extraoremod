@@ -1,17 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "N N",
-    " N ",
-    "N N"
-  ],
-  "key": {
-    "N": {
-      "item": "minecraft:nether_star"
-    }
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:nether_star"
   },
-  "result": {
-    "item": "eom:metal_detector"
-  }
+  "result": "eom:packaging_table"
 }
