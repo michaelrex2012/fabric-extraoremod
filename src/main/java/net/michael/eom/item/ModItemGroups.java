@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.REEL);
                         entries.add(ModItems.RUBBER_REEL);
                         entries.add(ModItems.COPPER_WIRE);
+                        entries.add(ModItems.COPPER_WIRE_REEL);
 
                         entries.add(ModItems.METAL_DETECTOR);
 

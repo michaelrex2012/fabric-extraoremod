@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CRC",
+    " C "
+  ],
+  "key": {
+    "R": {
+      "item": "eom:reel"
+    },
+    "C": {
+      "item": "eom:copper_wire"
+    }
+  },
+  "result": {
+    "item": "eom:copper_wire_reel"
+  }
+}

@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item REEL = registerItem("reel", new Item(new Item.Settings()));
     public static final Item RUBBER_REEL = registerItem("rubber_reel", new Item(new Item.Settings()));
     public static final Item COPPER_WIRE = registerItem("copper_wire", new Item(new Item.Settings()));
+    public static final Item COPPER_WIRE_REEL = registerItem("copper_wire_reel", new Item(new Item.Settings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new Item.Settings().maxDamage(32)));
