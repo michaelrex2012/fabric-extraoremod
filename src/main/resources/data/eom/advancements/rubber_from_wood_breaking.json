@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_axe"
+    },
+    "title": "Rubber?",
+    "description": "Break a log and get the rubber recipe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "eom:textures/block/raw_ruby_block.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:logs",
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "eom:rubber_scrap"
+    ],
+    "experience": 0
+  }
+}
