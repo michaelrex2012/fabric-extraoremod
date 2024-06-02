@@ -3,9 +3,9 @@
 	"id": "eom",
 	"version": "${version}",
 	"name": "Extra Ore Mod",
-	"description": "This is a Tutorial Mod made by Michael",
+	"description": "Mod that add more utilities and ores to Minecraft. Still in early development.",
 	"authors": [
-		"Michael"
+		"@michaelrex2012"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
