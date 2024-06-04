@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": {
+      "item": "eom:raw_ruby_block"
+    },
+    "title": "Extra Ore Mod!",
+    "description": "Play the Extra Ore Mod",
+    "background": "eom:textures/block/raw_ruby_block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {}
+}
