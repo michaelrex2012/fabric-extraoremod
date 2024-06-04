@@ -5,10 +5,10 @@
     },
     "title": "Rubber?",
     "description": "Break a log",
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "background": "eom:textures/block/raw_ruby_block.png"
+  "parent": "eom:main"
   },
   "criteria": {
     "requirement": {
