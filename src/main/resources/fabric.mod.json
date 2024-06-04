@@ -8,8 +8,8 @@
 		"@michaelrex2012"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/extra-ore-mod",
+		"sources": "https://github.com/michaelrex2012/fabric-extraoremod"
 	},
 	"license": "MIT",
 	"icon": "assets/eom/icon.png",
