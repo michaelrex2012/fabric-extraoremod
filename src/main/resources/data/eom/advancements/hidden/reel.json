@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": "",
+    "description": "",
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stick"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "eom:reel"
+    ]
+  }
+}

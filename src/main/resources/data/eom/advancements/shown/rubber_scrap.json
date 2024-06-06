@@ -10,7 +10,7 @@
         "announce_to_chat": true,
         "hidden": false
     },
-    "parent": "eom:rubber_from_wood_breaking",
+    "parent": "eom:shown/rubber_from_wood_breaking",
     "criteria": {
         "requirement": {
             "trigger": "minecraft:inventory_changed",
