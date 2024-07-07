@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "eom:rubber_scrap"
+        },
+        "title": "Elasticity!",
+        "description": "Obtain a rubber scrap",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "eom:shown/rubber_from_wood_breaking",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "eom:rubber_scrap"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "eom:rubber_reel"
+        ]
+    }
+}

@@ -7,9 +7,9 @@
     "description": "Break a log",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
-    "background": "eom:textures/block/raw_ruby_block.png"
+    "announce_to_chat": true
   },
+  "parent": "eom:shown/main",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

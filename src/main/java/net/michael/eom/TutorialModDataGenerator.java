@@ -2,6 +2,7 @@ package net.michael.eom;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.michael.eom.datagen.ModRecipeProvider;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 
@@ -12,6 +13,7 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 
 		//pack.addProvider(ModPoiTagProvider::new);
 		//pack.addProvider(ModWorldGenerator::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 
 	@Override
