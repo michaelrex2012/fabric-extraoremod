@@ -21,8 +21,9 @@ public class ModPlacedFeatures {
         var configuredFeatureRegistryEntryLookup =context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, RUBY_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.RUBY_ORE_KEY),
-                ModOrePlacement.modifiersWithCount(12,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(-64), YOffset.fixed(40))));
+                ModOrePlacement.modifiersWithCount(10,
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(-70), YOffset.fixed(40) /* Ore most
+                        common at y -15 */)));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
