@@ -3,7 +3,6 @@ package net.michael.eom.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.michael.eom.TutorialMod;
-import net.michael.eom.block.custom.PackagingTable;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -31,6 +30,9 @@ public class ModBlocks {
 
     public static final Block RUBBER_TREE_LOG = registerBlock("rubber_tree_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    public static final Block RUBBER_TREE_WOOD = registerBlock("rubber_tree_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+
     public static final Block RUBBER_TREE_LEAVES = registerBlock("rubber_tree_leaves",
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(0.5f)));
 
